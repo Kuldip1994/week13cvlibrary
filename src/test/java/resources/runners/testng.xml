@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Kuldip" verbose="1">
+    <listeners>
+        <listener class-name="com.cvlibaryweek13.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        </listeners>
+
+    <test name = "CVLibary">
+
+        <classes>
+            <class name="com.cvlibaryweek13.testsuite.JobSearchTest"/>
+
+        </classes>
+    </test>
+</suite>
